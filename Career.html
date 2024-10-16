@@ -1,39 +1,311 @@
 <html>
-  <head>
-    <title>Jobs - VME Precast Products</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
-  <style>
-    *{
-        font-family: "Poppins";
-        font-weight: 400;
-    }
-    *::selection{
-        background-color: rgb(255, 166, 0);
-        color: white;
-    }
-    .a1{
-        border-radius: 50%;
-        box-shadow: 9px 0px 0px 0px rgb(255, 122, 0);
-        border-bottom: 4px solid rgb(255, 122, 0);
-        padding-bottom: auto;
-    }
-</style>
-<body>
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                <p style="font-size: 28px;">C<span class="a1">aree</span>rs</span></p>
+    <head>
+        <title>Jobs - VME Precast Products</title>
+        <link rel="icon" type="icon" href="download.png" style="width: 100%;">
     
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNppkgyR7hglgaqW1dsM3zA5/0qvqIBBX5cQJsPoNl0R5jFW8rWlKw5Em6lmoXK" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <!-- BOOTSTRAP LINK -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- FONT AWESOME LINK -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- GOOGLE FONT LINK -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            section{
+                font-family: "Poppins";
+                font-weight: 400;
+            }
+            *::selection{
+                background-color: rgb(255, 166, 0);
+                color: white;
+            }
+            .navbar-nav li a:hover{
+                color: rgb(255, 122, 0);
+                border-bottom: 1px solid rgb(255, 122, 0);
+                margin: 0px 11px;
+                padding-bottom: 3px;
+                font-size: 17px;
+                transition: 0.2s;
+            }
+            .navbar-nav li a{
+                color: rgb(0, 59, 119);
+                border-bottom: transparent;
+                margin: 0px 11px;
+                padding-bottom: 3px;
+                font-size: 17px;
+                transition: 0.2s;
+            }
+            .dropdown-menu .dropdown-item{
+                color: whitesmoke;
+                background-color: rgb(10, 53, 96);
+                font-size: 15px;
+                padding: 7px;
+                margin: 0px;
+                transition: 0s;
+            }
+            .dropdown-menu .dropdown-item:hover{
+                color: whitesmoke;
+                background-color: rgb(255, 122, 0);
+                font-size: 15px;
+                padding: 7px;
+                margin: 0px;
+                transition: 0s;
+            }
+            .g1{
+                float: right;
+                margin-top: 5px;
+                margin-right: 7px;
+                font-size: 10px;
+            }
+            .l1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -15px;
+                color: rgb(255, 122, 0);
+            }
+            .p1{
+                font-size: 12.7px;
+                font-family: 'Times New Roman';
+                padding: 12px;  
+            }
+            .l2{
+                margin-top: -15.5px;
+                margin-right: 4px;
+            }
+            .card:hover{
+                box-sizing: border-box;
+                box-shadow: 1px 1px 20px rgba(171, 162, 162, 0.279);
+                transition: 0.5s;
+            }
+            .dropdown {
+                position: relative; 
+                display: inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: white;
+                border: 1px solid rgba(0, 0, 0, 0.122);
+                z-index: 1;
+            }
+            .dropdown-content a{
+                color: rgb(10, 53, 96);
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover{
+                background-color: lightgrey;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+                opacity: 1;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="container-fluid" style="margin-bottom: 130px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                      <div class="container-fluid">  
+                        <a class="navbar-brand"><img src="https://vmeprecast.co.in/wp-content/uploads/2021/10/logo-for-site.png" alt="logo-for-site" style="width: 100px;"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 30px;">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="Home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="About.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Elements</a>
+                              <div class="dropdown-menu p-0" style="width: 250px;">
+                                <a class="dropdown-item" href="Hollow core slabs.html">Hollow core slabs</a>
+                                <a class="dropdown-item" href="Columns.html">Columns</a>
+                                <a class="dropdown-item" href="Beams.html">Beams (RCC/PT)</a>
+                                <a class="dropdown-item" href="#">Solid Slabs</a>
+                                <a class="dropdown-item" href="Wall Panels.html">Wall Panels</a>
+                                <a class="dropdown-item" href="#">Insulated Wall Panels</a>
+                                <a class="dropdown-item" href="#">Pre-stressed Purlins</a>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Building Solutions</a>
+                              <div class="dropdown-menu p-0" style="width: 250px;">
+                                <a class="dropdown-item" href="#">Commercial Project<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="Industrial Buldings.html">Industrial Buildings</a>
+                                <a class="dropdown-item" href="#">Modular Solutions<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="Residential.html">Residential</a>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Precast Products</a>
+                              <div class="dropdown-menu p-0" style="width: 330px;">
+                                <a class="dropdown-item" href="#">Storage Tanks<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Strom Water Drains & sewer Systems<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Telecom Electrical Sectors<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Boundary Wall & Soil Retaining Wall<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Cladding Wall<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Architectural Products<i class="fa-solid fa-caret-right g1"></i></a>
+                                <a class="dropdown-item" href="#">Foundation<i class="fa-solid fa-caret-right g1"></i></a>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Download.html">Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Career.html" style="color: rgb(255, 122, 0);border-bottom: 1px solid rgb(255, 122, 0);padding-bottom: 3px;">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Contact Us.html">Contact Us</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>  
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
 
+        <section class="container pb-0">
+            <div class="row mb-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p style="color:rgb(0, 22, 89);font-size: 27px;">Careers</p>
+                    <div class="l1">
+                        <h3 class="l2">...</h3>
+                        <h1 style="border-bottom: 4px solid rgb(255, 122, 0);width: 40px;border-radius: 10px;"></h1>
+                    </div>
+                </div>
+            </div>
+        </section>   
 
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <img src="https://vmeprecast.co.in/wp-content/uploads/2021/10/careers.jpg" alt="careers" width="87%" height="340px">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div>
+                    <p style="color:rgb(0, 22, 89);font-size: 24px;font-weight: 600;">WANT TO WORK WITH US?</p>
+                    <p style="font-family: 'Times New Roman';margin-top: 25px;">At VME Precast we practice humanistic management giving people the freedom to work well and grow with the company. There are achievable goals at every level, as the company is traversing a positive growth path.</p>
+                    <p style="font-family: 'Times New Roman';margin-top: 25px;">We also believe that highest standards of quality deliverables to our customers is possible only with dedication, dilegence, integrity, sincerity and commitment to quality are essential for those who work with us. Along with expertise in your area of knowledge, if you match the ability to uphold our company values and live up to our commitments, send us your resume and we will get in touch with you.</p>
+                    <p style="font-family: 'Times New Roman';margin-top: 40px;font-weight: 600;color: rgba(0, 0, 0, 0.689);">Please send us your resume at hr@vmeprecast.com</p>
+                  </div>
+                </div>
+                <div style="border-bottom: 1px solid rgb(255, 122, 0);padding-bottom: 33px;max-width: 1130px;margin-left: auto;margin-right: auto;"></div>
+            </div>
+        </section>
 
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <section class="container" style="margin-top: 40px;">
+          <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-12" style="margin-left: -19px;">
+                <div class="dropdown">
+                  <button style="background-color: white;border: 1px solid rgb(219, 218, 218);font-size: 12px;font-family: 'Times New Roman';border-radius: 0px;padding: 12px;">All Job Category <i class="fa-solid fa-sort-down" style="margin-left: 30px;"></i></button>
+                  <div class="dropdown-content" style="width: 147.9px;">
+                    <a class="p1">All Job Category</a>
+                    <a class="p1">Accounts</a>
+                    <a class="p1">Civil department</a>
+                    <a class="p1">Sales & Marketing</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12" style="margin-left: -19px;">
+                <div class="dropdown">
+                  <button style="background-color: white;border: 1px solid rgb(219, 218, 218);font-size: 12px;font-family: 'Times New Roman';border-radius: 0px;padding: 12px;">All Job Type <i class="fa-solid fa-sort-down" style="margin-left: 50px;"></i></button>
+                  <div class="dropdown-content" style="width: 147.9px;">
+                    <a class="p1">All Job Type</a>
+                    <a class="p1">Full Time</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12" style="margin-left: -19px;">
+                <div class="dropdown">
+                  <button style="background-color: white;border: 1px solid rgb(219, 218, 218);font-size: 12px;font-family: 'Times New Roman';border-radius: 0px;padding: 12px;">All Job Location <i class="fa-solid fa-sort-down" style="margin-left: 35px;"></i></button>
+                  <div class="dropdown-content" style="width: 151.2px;">
+                    <a class="p1">All Job Location</a>
+                    <a class="p1">Chennai</a>
+                    <a class="p1">Kanchipuram</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+      
+        <section class="container my-4 mb-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-2" style="margin-left: -19px;">
+                <div class="card" style="border-radius: 0px;">
+                    <div class="card-body py-3">
+                      <p style="color: rgb(0, 22, 89);font-size: 18px;font-weight: 600;font-family: 'Times New Roman';">Sales Executive</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';">Sales & Marketing</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';margin-top: -11px;">kanchipuram</p>
+                      <p style="color: rgb(0, 22, 89);font-size: 15px;font-weight: 500;font-family: 'Times New Roman';margin-top: -12px;margin-bottom: 7px;">More Details<i class="fa-solid fa-arrow-right mx-2"></i></p>
+                    </div>
+                </div>
+              </div> 
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-2"> 
+                <div class="card" style="border-radius: 0px;">
+                    <div class="card-body py-3">
+                      <p style="color: rgb(0, 22, 89);font-size: 18px;font-weight: 600;font-family: 'Times New Roman';">Talecaller</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';">Sales & Marketing</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';margin-top: -11px;">Chennai</p>
+                      <p style="color: rgb(0, 22, 89);font-size: 15px;font-weight: 500;font-family: 'Times New Roman';margin-top: -12px;margin-bottom: 7px;">More Details<i class="fa-solid fa-arrow-right mx-2"></i></p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-2">  
+                <div class="card" style="border-radius: 0px;">
+                    <div class="card-body py-3">
+                      <p style="color: rgb(0, 22, 89);font-size: 18px;font-weight: 600;font-family: 'Times New Roman';">Techno Commercial Executive</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';">Civil department</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';margin-top: -11px;">Chennai</p>
+                      <p style="color: rgb(0, 22, 89);font-size: 15px;font-weight: 500;font-family: 'Times New Roman';margin-top: -12px;margin-bottom: 7px;">More Details<i class="fa-solid fa-arrow-right mx-2"></i></p>
+                    </div>
+                </div>
+              </div>  
+            </div>
+            <div class="row my-4">
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-2" style="margin-left: -19px;">  
+                <div class="card" style="border-radius: 0px;">
+                    <div class="card-body py-3">
+                      <p style="color: rgb(0, 22, 89);font-size: 18px;font-weight: 600;font-family: 'Times New Roman';">Accounts Executive</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';">Accounts</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';margin-top: -11px;">Chennai</p>
+                      <p style="color: rgb(0, 22, 89);font-size: 15px;font-weight: 500;font-family: 'Times New Roman';margin-top: -12px;margin-bottom: 7px;">More Details<i class="fa-solid fa-arrow-right mx-2"></i></p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-2">  
+                <div class="card" style="border-radius: 0px;">
+                    <div class="card-body py-3">
+                      <p style="color: rgb(0, 22, 89);font-size: 18px;font-weight: 600;font-family: 'Times New Roman';">Quantity surveyor</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';">Civil department</p>
+                      <p style="color: rgb(86, 89, 105);font-size: 14px;font-weight: 500;font-family: 'Times New Roman';margin-top: -11px;">Chennai</p>
+                      <p style="color: rgb(0, 22, 89);font-size: 15px;font-weight: 500;font-family: 'Times New Roman';margin-top: -12px;margin-bottom: 7px;">More Details<i class="fa-solid fa-arrow-right mx-2"></i></p>
+                    </div>
+                </div>
+              </div>  
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
