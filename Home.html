@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNppkgyR7hglgaqW1dsM3zA5/0qvqIBBX5cQJsPoNl0R5jFW8rWlKw5Em6lmoXK" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- 
+
     <!-- BOOTSTRAP LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -68,19 +68,425 @@
         margin-right: 7px;
         font-size: 10px;
       }
-    /* .icon-container::after{
-      content:f2b5;
-    } */
-  
-    /* .dropdown-submenu .dropdown-menu{
-      top: 0;
-      left: 100%;
-      margin-top: -6px;
-    } */
-    /* .dropdown-submenu {
-      position: relative;
-    } */
-       /* Hover effect to change color to yellow for specific items */
+      .a1{
+        position: absolute;
+        top: 63%;
+        left: 33.5%;
+        transform: translate(-50%, -50%);
+        color: rgb(0, 22, 89);
+        background-color: rgb(252, 251, 250);
+        font-size: 57px;
+        font-weight: 700;
+        width: 45%;
+        text-align: start;
+        line-height: 56px;
+        padding: 35px;
+        margin-right: 60px;
+      }
+      .video-buttons{
+        margin-top: 38px;
+      }
+      .p1{
+        background-color:  rgb(255, 94, 20);
+        color: white;
+        padding: 9px 25px;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 3px;
+        transition: 0.5s;
+      }
+      .p1:hover{
+        background-color:  rgb(255, 94, 20);
+        color: white;
+        padding: 9px 25px;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 3px;
+        transform: translatey(-10px);
+        transition: 0.5s;
+      }
+      .p2{
+        color: white;
+        background-color: rgb(255, 94, 20);
+        border: none;
+        border-radius: 25px;
+        padding: 12px 30px;
+        margin-top: 22px;
+        font-size: 14.7px;
+        font-weight: 600;
+      }
+      .P3{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .P4{
+        text-align: center;
+        font-size: 16.7px;
+        line-height: 17px;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+      .l1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15px;
+        color: rgb(255, 122, 0);
+      }
+      .l2{
+        margin-top: -15.5px;
+        margin-right: 4px;
+      }
+      .custom-card{
+        border: 1px solid rgb(242, 242, 242);
+        transition: 0.5s;
+        height: 220px;
+      }
+      .custom-card:hover {
+        border-color: rgb(255, 105, 0);
+        animation: updown 2s ease-in-out alternate infinite;
+      }
+      @keyframes updown{
+        0% {
+          transform: translateY(0);
+          transition: 0.4s;
+        }
+        100% {
+          transform: translateY(-8px);
+          transition: 0.4s;
+        }
+      }
+      .icon-container{
+        background-color: rgb(255, 105, 0); 
+        width: 85px; 
+        height: 85px; 
+        text-align: center;
+        color: rgb(252, 251, 250); 
+        border: 4px solid rgb(255, 105, 0);
+        border-radius: 55%; 
+        margin-top: 30px;
+        margin-left: 34.2%; 
+        padding: 15.5px;
+        transition: 0.5s;
+      }
+      .custom-card:hover .icon-container{
+        background-color: white;
+        width: 85px; 
+        height: 85px; 
+        text-align: center;
+        color: rgb(255, 105, 0);
+        border: 4px solid rgb(255, 105, 0);
+        border-radius: 55%; 
+        margin-top: 30px;
+        margin-left: 34.2%; 
+        padding: 15.5px;
+        transition: 0.5s;
+      }
+      .g2{
+        border: none;
+        padding: 13px 23px;
+        margin-top: -15px;
+        font-family:'Times New Roman';
+        transition: 0.5s;
+      }
+      .g2:hover{
+        border: none;
+        padding: 13px 23px;
+        color: white;
+        background-color: rgb(255, 94, 20);
+        transform: translateY(-10px);
+        font-family:'Times New Roman';
+        transition: 0.7s;
+      }
+      .jai{
+        background: linear-gradient(90deg,rgba(81, 61, 162, 0.4),rgba(1, 1, 86, 0.455)),url(https://vmeprecast.co.in/wp-content/uploads/2022/10/vme-toilets.jpeg);
+        width: 100%;
+        height: 410px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 3px solid rgb(0, 22, 89);
+        transition: 0.4s;
+      }
+      .jai:hover{
+        background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/10/vme-toilets.jpeg);
+        width: 100%;
+        height: 410px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 3px solid rgb(255, 105, 0);
+        transition: 0.4s;
+      }
+      .jai2{
+        background: linear-gradient(90deg,rgba(57, 75, 119, 0.522),rgba(53, 62, 101, 0.527)),url(https://vmeprecast.co.in/wp-content/uploads/2022/10/vme-precast-toilets.jpeg);
+        width: 100%;
+        height: 410px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 3px solid rgb(0, 22, 89);
+        margin-left: -30px;
+        transition: 0.4s;
+      }
+      .jai2:hover{
+        background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/10/vme-precast-toilets.jpeg);
+        width: 100%;
+        height: 410px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 3px solid rgb(255, 105, 0);
+        margin-left: -30px;
+        transition: 0.4s;
+      }
+      .Z1{
+        color: rgb(174, 174, 174);
+        font-size: 23px;
+        font-weight: 300;
+        margin-left: 7px;
+      }
+      .Z2{
+        color: white;
+        margin-top: -17px;
+        font-size: 49px;
+        font-weight: 600;
+        margin-left: 7px;
+        border-bottom: 4px solid rgb(255, 94, 20);
+        padding-bottom: 6px;
+        width: 79%;
+      }
+      .Z3{
+        border: none;
+        color: white;
+        background-color:  rgb(255, 94, 0);
+        padding: 15px 25px;
+        margin-top: 20px;
+        margin-left: 7px;
+        transition: 0.4s;
+      }
+      .Z3:hover{
+        border: none;
+        color: white;
+        background-color:  rgb(255, 94, 20);
+        padding: 15px 25px;
+        margin-top: 20px;
+        margin-left: 7px;
+        transform: translateY(-10px);
+        transition: 0.4s;
+      }
+      .Q1{
+        background-color: rgb(255, 105, 0); 
+        width: 85px; 
+        height: 85px; 
+        color: rgb(252, 251, 250); 
+        border: 5.8px solid rgb(255, 105, 0);
+        border-radius: 55%; 
+        padding: 16px;
+        font-size: 40px;
+        transition: 0.5s;
+      }
+      .Q1:hover{
+        background-color: white; 
+        width: 85px; 
+        height: 85px; 
+        color: rgb(255, 105, 0); 
+        border: 5.8px solid rgb(255, 105, 0);
+        border-radius: 55%; 
+        padding: 16px;
+        font-size: 40px;
+        transition: 0.5s;
+      }
+      .s1{
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        font-size: 64px;
+        font-weight: 500;
+      }
+      .s2{
+        text-align: center;
+        color: white;
+        margin-top: -32px;
+        font-size: 19px;
+      }
+      .k1{
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 7px;
+        margin-left: 45px;
+      }
+      .k2{
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 7px;
+        margin-left: 45px;
+        margin-top: 45px;
+      }
+      .w1{
+        background-color:  rgb(255, 94, 20);
+        color: white;
+        text-align: end;
+        font-size: 18px;
+        font-weight: 200;
+        padding: 10px 15px;
+        margin-left: 45px;
+      }
+      .w2{
+        background-color: rgb(46, 57, 111);
+        color: white;
+        text-align: end;
+        font-size: 18px;
+        font-weight: 200;
+        padding: 10px 15px;
+        margin-left: 45px;
+      }
+      .r1{
+        background-color: white;
+        margin-right: 40px;
+      }
+      .m1{
+        background-color: rgba(4, 22, 76, 0.722);
+        height: 400px;
+      }
+      .m2{
+        color: rgba(236, 221, 221, 0.749);
+        padding: 70px 0px 0px 170px;
+        font-size: x-large;
+        font-weight: 600;
+      }
+      .m3{
+        color: white;
+        padding-left: 170px;
+        margin-top: -16px;
+        font-size: 50px;
+        line-height: 53px;
+        width: 60%;
+        font-weight: 600;
+      }
+      .m4{
+        color: rgb(255, 94, 20);
+        font-size: 7px;
+        font-weight: 900;
+        margin-top: -7px;
+      }
+      .m5{
+        margin-left: 165px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 94, 20);
+        padding: 13px 27px;
+        margin-top: 8px;
+        font-size: 17.5px;
+        transition: 0.4s;
+      }
+      .m5:hover{
+        margin-left: 165px;
+        border: none;
+        color: white;
+        background-color: rgb(255, 94, 20);
+        padding: 13px 27px;
+        margin-top: 8px;
+        font-size: 17.5px;
+        transform: translateY(-10px);
+        transition: 0.4s;
+      }
+      .mw{
+        background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/10/image-from-rawpixel-id-585155.jpg.webp);
+        background: linear-gradient(90deg,rgba(255, 255, 255, 0.405),rgba(255, 255, 255, 0.422)),url(https://vmeprecast.co.in/wp-content/uploads/2022/10/image-from-rawpixel-id-585155.jpg.webp);
+        width: 100%;
+        height: 555px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .aw1{
+        width: 90%;
+        height: 190px;
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
+      }
+      .aw2{
+        width: 100%;
+        height: 190px;
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
+      }
+      .italic-text {
+        font-style: italic;
+        border-left: 5px solid  rgba(249, 109, 8, 0.929);
+        padding-left: 25px;
+        margin-top: 25px;
+      }
+      .img1{
+        width: 60%;
+      }
+      .h1{
+        width: 55%;
+        line-height: 28px;
+        margin-top: 14px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      .h2{
+        color: black;
+        background-color: white;
+        margin-right: 17px;
+        border-radius: 50%;
+        font-size: x-large;
+        transition: 0.6s;
+      }
+      .h2:hover{
+        color: white;
+        background-color: rgb(255, 105, 0);
+        margin-right: 17px;
+        border-radius: 50%;
+        font-size: x-large;
+        transform: scale(0.8);
+        transition: 0.6s;
+      }
+      .h3{
+        color: white;
+        font-family: "Inter", Sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -7px;
+        margin-bottom: -17.5px;
+      }
+      .h4{
+        color: white;
+        width: 168px;
+        font-size: 16.5px;
+        font-weight: 400;
+        margin-top: 15px;
+        transition: 0.2s;
+      }
+      .h4:hover{
+        color: rgb(255, 122, 0);
+        width: 168px;
+        font-size: 16.5px;
+        font-weight: 400;
+        margin-top: 15px;
+        transition: 0.2s;
+      }
+      .h5{
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 270px;
+        line-height: 23px;
+        font-size: 17.5px;
+        font-weight: 400;
+        margin-top: 15px;
+        transition: 0.2s;
+      }
+      .h5:hover{
+        display: flex;
+        align-items: center;
+        color: rgb(255, 122, 0);
+        width: 270px;
+        line-height: 23px;
+        font-size: 17.5px;
+        font-weight: 400;
+        margin-top: 15px;
+        transition: 0.2s;
+      } 
   </style>
   </head>
 
@@ -154,949 +560,349 @@
       </div>
     </div>
 
-<!-- Video Section -->
-<div class="video-container">
-    <iframe width="100%" height="854" src="https://www.youtube.com/embed/BwM73kN98bc?autoplay=1&mute=1&controls=0&loop=1&playlist=BwM73kN98bc" class="a2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <!-- Overlay Text and Buttons -->
-    <div class="a1">
-     <strong> INDIA'S FIRST FULLY AUTOMATED <br> PRECAST FACTORY.</strong>
-      <div class="video-buttons">
-        <a href="#" class="btn btn-custom z3z">SEE ALL PROJECTS <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="btn btn-custom z3z">ABOUT US <i class="fa-solid fa-arrow-right"></i></a>
-       
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid" style="background-color: #f5f7fa;">
-  <div class="container pt-5">
-    <div class="row">
-      <!-- Video and Italic Text Section -->
-      <div class="col-lg-6 col-md-6 col-sm-12 order-last order-md-first">
-        <!-- Video -->
-        <div class="video-container mb-4 mt-5">
-          <iframe width="100%" height="305" 
-          src="https://www.youtube.com/embed/fVXhcoTC7WI?autoplay=1&mute=1&controls=0&loop=1&playlist=fVXhcoTC7WI" class="v1"
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-      </iframe>
-      
+    <section class="video-container">
+      <iframe src="https://www.youtube.com/embed/BwM73kN98bc?autoplay=1&mute=1&controls=0&loop=1&playlist=BwM73kN98bc" width="100%" height="854" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+      <div class="a1">
+        <p>INDIA'S FIRST FULLY AUTOMATED PRECAST FACTORY.</p>
+        <div class="video-buttons">
+          <a class="btn p1">SEE ALL PROJECTS<i class="fa-solid fa-arrow-right" style="margin-left: 13px;"></i></a>
+          <a class="btn p1" style="margin-left: 37px;">ABOUT US<i class="fa-solid fa-arrow-right" style="margin-left: 13px;"></i></a>
         </div>
-        <!-- Italic Text with Border-Left -->
-        <p class="italic-text">
-          VME Precast uses cutting-edge technology to create precast concrete precisely cast in a controlled environment and properly cured. The VME Precast plant meets international production standards and safety norms.
-        </p>
       </div>
+    </section>
 
-      <!-- About Us Section -->
-      <div class="col-lg-6 col-md-6 col-sm-12 order-first order-md-second  about-section ">
-        <!-- About Us Heading with Border-Bottom -->
-         <h5>ABOUT US</h5>
-        <h2 style="font-size: 40px; color: #000000CC;">ABOUT VME <span class="wa">PRE</span>CAST</h2>
-        <p class="about-text">
-          VME Precast is a diversified unit of the VME Group which is primarily involved in planning, execution and transfer of specialised projects in the field of construction like road overbridges, railway bridges and such other structures, besides highway enhancement.
-        </p>
-        <p class="about-text" style="padding-top: 15px;">
-          VME Precast has set up India’s first state-of-the-art precast plant in Oragadam, one of the fastest growing industrial centres. Backed by Finnish expertise, VME Precast’s in-house structural designing team takes up turn-key projects right from the structural design stage right up to the erection of precast elements.
-        </p>
-        <!-- <a href="#"  class="see-more-btn lk">
-           See More <i  class="fas fa-play-
-           circle "></i>
-        </a> -->
-        <button class="z3z" type="button">See More <i class="fas fa-play-
-          circle "></i><i class="fa-solid fa-arrow-right"></i>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <p class="l">Services</p>
-  <div class="l1">
-    <h3 class="l2">...</h3>
-    <h1>_</h1>
-  </div>
-  <p class="l3">Modernize your rounded icon box with rounded border style. This is one of the best icon style for your WordPress site.</p>
-  <div class="container mt-5" style="margin-top:5% ;">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="card custom-card">
-          <div class="card-body">
-            <h1 class="icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-trophy b1" viewBox="0 0 16 16">
-              <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
-            </svg></h1>
-            <h6 style="text-align: center;">Elements</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="card custom-card">
-          <div class="card-body">
-            <h1 class="icon-container"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-            </svg></h1>
-            <h6 style="text-align: center;">Buliding Solutions</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="card custom-card">
-          <div class="card-body">
-            <h1 class="icon-container"><i class="fa-light fa-handshake"></i></h1>
-            <h6 style="text-align: center;">
-              Precast Products</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section style="background-color: #001659; margin-top: 100px;">
-    <div class="container mt-5 pt-5">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 order-last order-md-first">
-          <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="jaat">
-          <div style="padding-top: 280px;  padding-left: 20px; height: 50px;">
-          <h5 style="background-color: #001659; color: white; padding: 15px 20px; width: 80%; border-left: 4px solid #ff6900;">USER FRIENDLY</h5>
-          <button class="z4">More <i class="fa-solid fa-arrow-right"></i></button>
-          </div>
-        </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="jaat1">
-          <div style="padding-top: 280px;  padding-left: 20px; height: 50px;">
-            <h5 style="background-color: #001659; color: white; padding: 15px 20px; width: 85%; border-left: 4px solid #ff6900;">EASY WASHABLE</h5>
-            <button class="z4">More <i class="fa-solid fa-arrow-right"></i></button>
+    <section style="background-color: hsl(216, 33%, 97%);padding-bottom: 90px;">
+      <div class="container pt-5">
+        <div class="row" style="display: flex;align-items: center;">
+          <div class="col-lg-6 col-md-6 col-sm-12" >
+            <div class="video-container mb-4 mt-5">
+            <iframe width="100%" height="305px" src="https://www.youtube.com/embed/fVXhcoTC7WI?autoplay=1&mute=1&controls=0&loop=1&playlist=fVXhcoTC7WI" title="YouTube video player" allowfullscreen></iframe>
             </div>
-        </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 order-first order-md-last">
-      <p class="z1">NEW PRODUCT</p>
-      <h1 class="z2">READY MADE PRECAST TOILETS</h1>
-      <button class="z3" type="button">EXPLORE NOW <i class="fa-solid fa-arrow-right"></i>
-      </button>
-      </div>
-    </div>
-  </section>
-  <p class="l">Benefits & Advantages
-  </p>
-  <div class="l1">
-    <h3 class="l2">...</h3>
-    <h1></h1>
-  </div>
-  <div class="container-fluid mt-5">
-    <div class="row">
-      <div class="col-lg-1 col-md-1 col-sm-12">
-        
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-        <div style="text-align: center; padding-left: 80px;">
-        <h1><i class="fa-solid fa-minimize jat2"></i></h1>
-        <h5 class="jat5">SPACE SAVER DESGIN</h5>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-        <div style="text-align: center;">
-        <h1><i class="fa-regular fa-lightbulb jat"></i></h1>
-        <h5 class="jat1">HIGH STRENGTH</h5>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-        <div style="text-align: center;">
-        <h1><i class="fa-solid fa-minimize jat"></i></h1>
-        <h5 class="jat1">AFFORDABLE PRICE</h5>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-        <div style="text-align: center;">
-        <h1><i class="fa-regular fa-lightbulb jat"></i></h1>
-        <h5 class="jat1">HIGH STRENGTH</h5>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-12">
-        <div style="text-align: center; padding-right: 80px;">
-        <h1><i class="fa-solid fa-minimize jat3"></i></h1>
-        <h5 class="jat4">SPACE SAVER DESGIN</h5>
-        </div>
-      </div>
-      
-      
-      <div class="col-lg-1 col-md-1 col-sm-12">
+            <p class="italic-text text-secondary">VME Precast uses cutting-edge technology to create precast concrete precisely cast in a controlled environment and properly cured. The VME Precast plant meets international production standards and safety norms.</p>
+          </div>
 
+          <div class="col-lg-5 col-md-5 col-sm-12" style="margin-left: 30px;">
+            <p style="font-size: 14.5px;font-weight: 600;color: rgb(255, 122, 0);margin-bottom: 5px;">ABOUT US</p>
+            <p style="font-size: 42px;font-weight: 500;color: rgba(0, 0, 0, 0.8);"><span style="border-bottom: 4px solid  rgb(255, 122, 0);padding-bottom: 18px;">AB</span>OUT VME PRECAST</p>
+            <p style="font-family: 'Times New Roman';margin-top: 40px;color: rgb(86, 89, 105);">VME Precast is a diversified unit of the VME Group which is primarily involved in planning, execution and transfer of specialised projects in the field of construction like road overbridges, railway bridges and such other structures, besides highway enhancement.</p>
+            <p style="font-family: 'Times New Roman';margin-top: 40px;color: rgb(86, 89, 105);">VME Precast has set up India’s first state-of-the-art precast plant in Oragadam, one of the fastest growing industrial centres. Backed by Finnish expertise, VME Precast’s in-house structural designing team takes up turn-key projects right from the structural design stage right up to the erection of precast elements.</p>
+            <button class="p2" type="button">see more<i class="fa-solid fa-circle-play" style="margin-left: 7px;"></i></button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="container-fluid mt-5 pt-5">
+    </section>
+
+    <section class="container" style="margin-top: 90px;">
       <div class="row">
-        <div class="col-lg-1 col-md-1 col-sm-12">
-          
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div style="text-align: center; padding-left: 80px;">
-          <h1><i class="fa-solid fa-minimize jat2"></i></h1>
-          <h5 class="jat5">SPACE SAVER DESGIN</h5>
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <p style="color:rgb(0, 22, 89);font-size: 26.7px;">Services</p>
+              <div class="l1">
+                  <h3 class="l2">...</h3>
+                  <h1 style="border-bottom: 4px solid rgb(255, 94, 20);width: 40px;border-radius: 10px;"></h1>
+              </div>
+          </div>
+      </div>
+      <p style="font-size: 16px;font-family: 'Times New Roman';text-align: center;opacity: 0.8;">Modernize your rounded icon box with rounded border style. This is one of the best icon style for your WordPress site.</p>
+    </section>
+
+    <section class="container" style="margin-top: 60px;margin-bottom: 140px;">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card custom-card">
+            <div class="card-body">
+              <h1 class="icon-container"><i class="fa-solid fa-trophy"></i></h1>
+              <p class="p3">Elements</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div style="text-align: center;">
-          <h1><i class="fa-regular fa-lightbulb jat"></i></h1>
-          <h5 class="jat1">HIGH STRENGTH</h5>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card custom-card">
+            <div class="card-body">
+              <h1 class="icon-container"><i class="fa-solid fa-people-group"></i></h1>
+              <p class="p3">Buliding Solutions</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div style="text-align: center;">
-          <h1><i class="fa-solid fa-minimize jat"></i></h1>
-          <h5 class="jat1">AFFORDABLE PRICE</h5>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card custom-card">
+            <div class="card-body">
+              <h1 class="icon-container"><i class="fa-regular fa-handshake"></i></h1>
+              <p class="p3">Precast Products</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div style="text-align: center;">
-          <h1><i class="fa-regular fa-lightbulb jat"></i></h1>
-          <h5 class="jat1">HIGH STRENGTH</h5>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
-          <div style="text-align: center; padding-right: 80px;">
-          <h1><i class="fa-solid fa-minimize jat3"></i></h1>
-          <h5 class="jat4">SPACE SAVER DESGIN</h5>
-          </div>
-        </div>
-        
-        
-        <div class="col-lg-1 col-md-1 col-sm-12">
-  
         </div>
       </div>
-      <p class="l">VME PRECAST PRODUCTS
-      </p>
-      <h1 style="text-align: center;">PROJECTS COMPLETED</h1>
-      <div class="l1">
-        <h3 class="l2">...</h3>
-        <h1></h1>
-      </div>
-      <div class="container-fluid ">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12" style="background-color: #2e396f; padding: 70px 0px;">
-            <h1 class="s1">
-              54+</h1>
-              <h3 class="s2">Completed Projects</h3>
-              <h1 class="s1">2,500+</h1>
-              <h3 class="s2">PRODUCTS</h3>
-          </div>
-          
-          <div class="col-lg-8 col-md-4 col-sm-12 " style="background-color: #ebedf4; padding: 50px 0px;">
+    </section>
+
+    <section style="background-color: rgb(0, 22, 89)">
+      <div class="container py-5">
+        <div class="row py-4" style="display: flex;align-items: center;">
+          <div class="col-lg-6 col-md-12 col-sm-12 order-last order-md-first">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-12">
-                <p class="kq1">WAREHOUSE</p>
-                <div style="display: flex;">
-                  <h1 class="wq">87%</h1>
-                  <h1 class="wq1"></h1>
-                </div>
-                <p class="kq2">WATER TANK</p>
-                <div style="display: flex;">
-                  <h1 class="wq2">72%</h1>
-                  <h1 class="wq3" ></h1>
+                <div class="jai">
+                  <div style="padding-top: 280px;padding-left: 15px;">
+                    <p style="background-color: rgb(0, 22, 89);color: white;width: 200px;;padding: 14px;border-left: 3px solid rgb(255, 105, 0);font-size: 20px;font-weight: 600;">USER FRIENDLY</p>
+                    <button class="g2">MORE<i class="fa-solid fa-arrow-right" style="margin-left: 20px;font-size: large;"></i></button>
+                  </div>
                 </div>
               </div>
+
               <div class="col-lg-6 col-md-6 col-sm-12">
-                <p class="kq1">BUILDINGS</p>
-                <div style="display: flex;">
-                  <h1 class="wq4">81%</h1>
-                  <h1 class="wq5"></h1>
-                </div>
-                <p class="kq2">DRAINS</p>
-                <div style="display: flex;">
-                  <h1 class="wq6">93%</h1>
-                  <h1 class="wq7"></h1>
+                <div class="jai2">
+                  <div style="padding-top: 280px;padding-left: 15px;">
+                    <p style="background-color: rgb(0, 22, 89);color: white;width: 200px;;padding: 14px;border-left: 3px solid rgb(255, 105, 0);font-size: 20px;font-weight: 600;">EASY WASHABLE</p>
+                    <button class="g2">MORE<i class="fa-solid fa-arrow-right" style="margin-left: 20px;font-size: large;"></i></button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          
-        </div>
-      </div>
-      <section style="background-image: url(warehouse.jpeg); width: 100%; height: 700px; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; ">
-      <div class="container-fluid ">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            
-           
+
+          <div class="col-lg-6 col-md-12 col-sm-12 order-first order-md-last">
+            <p class="Z1">NEW PRODUCT</p>
+            <h1 class="Z2">READY MADE PRECAST TOILETS</h1>
+            <button class="Z3" type="button">EXPLORE NOW<i class="fa-solid fa-arrow-right" style="margin-left: 20px;font-size: large;"></i></button>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="container" style="margin-top: 100px;">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <p style="color:rgb(0, 22, 89);font-size: 26.7px;">Benefits & Advantages</p>
+              <div class="l1">
+                  <h3 class="l2">...</h3>
+                  <h1 style="border-bottom: 4px solid rgb(255, 94, 20);width: 40px;border-radius: 10px;"></h1>
+              </div>
+          </div>
+      </div>
+    </section>
+ 
+    <section class="container-fluid" style="margin-top: 80px;">
+      <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;padding-left: 70px;">
+            <i class="fa-solid fa-minimize Q1"></i>
+            <p class="p4">SPACE SAVER DESGIN</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-solid fa-bolt Q1"></i>
+            <p class="p4">HIGH STRENGTH</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-solid fa-hand-holding-dollar Q1"></i>
+            <p class="p4">AFFORDABLE PRICE</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-solid fa-industry Q1"></i>
+            <p class="p4">FACTORY MADE</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;padding-right: 60px;">
+            <i class="fa-solid fa-droplet Q1"></i>
+            <p class="p4">CHEMICALLY INERT</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+      </div>
+
+      <div class="row" style="margin-top: 80px;">
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;padding-left: 70px;">
+            <i class="fa-solid fa-hammer Q1"></i>
+            <p class="p4">HIGHLY DURABLE</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-solid fa-screwdriver-wrench Q1"></i>
+            <p class="p4">EASY & QUICK INSTALLATION</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-solid fa-gears Q1"></i>
+            <p class="p4">MAINTENANCE FREE</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;">
+            <i class="fa-brands fa-pagelines Q1"></i>
+            <p class="p4">ECO FRIENDLY</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div style="text-align: center;padding-right: 60px;">
+            <i class="fa-solid fa-dolly Q1"></i>
+            <p class="p4">EASY RELOCATED</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-1 col-md-1 col-sm-12"></div>
+      </div>
+    <!-- </section> -->
+
+    <section class="container" style="margin-top: 135px;">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <p style="color:rgb(0, 22, 89);font-size: 30px;">VME PRECAST PRODUCTS</p>
+              <p style="color:rgb(0, 22, 89);font-size: 41px;font-weight: 500;font-family:'Franklin Gothic Medium','Arial Narrow',;">PROJECTS COMPLETED</p>
+              <div class="l1">
+                  <h3 class="l2">...</h3>
+                  <h1 style="border-bottom: 4px solid rgb(255, 94, 20);width: 40px;border-radius: 10px;"></h1>
+              </div>
+          </div>
+      </div>
+    </section>
+ 
+    <section class="container-fluid" style="margin-top: 15px;">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12" style="background-color: rgb(46, 57, 111);padding-top: 25px;padding-bottom: 60px;">
+          <p class="s1">54+</p>
+          <p class="s2">Completed Projects</p>
+          <p class="s1">2,500+</p>
+          <p class="s2">PRODUCTS</p>
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-sm-12" style="background-color: rgb(235, 237, 244);padding: 50px 0px;">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-start">
+              <p class="k1">WAREHOUSE</p>
+              <div style="display: flex;">
+                <p class="w1" style="width: 87%;">87%</p>
+                <p class="r1" style="width: 13%;"></p>
+              </div>
+
+              <p class="k2">BUILDINGS</p>
+              <div style="display: flex;">
+                <p class="w2" style="width: 72%;">72%</p>
+                <p class="r1" style="width: 28%;"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 text-start">
+              <p class="k1">WATER TANK</p>
+              <div style="display: flex;">
+                <p class="w2" style="width: 81%;">81%</p>
+                <p class="r1" style="width: 19%;"></p>
+              </div>
+
+              <p class="k2">DRAINS</p>
+              <div style="display: flex;">
+                <p class="w1" style="width: 93%;">93%</p>
+                <p class="r1" style="width: 7%;"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/03/warehouse.jpeg);width: 100%;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
       <div class="container-fluid p-0">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="mp1">
-            <h3 class="mp2">DOWNLOAD BROCHURE</h3>
-            <h1 class="mp3">ALL PRODUCTS BROCHURE AVAILABLE !</h1>
-            <p class="mp4">/////////////////////////////////////////////////////////////</p>
-            <button class="mp5">
-              DOWNLOAD NOW <i class="fa-solid fa-arrow-right"></i></button>
-           </div>
-           <div class="mwm">
-            <h3 style="text-align: center; padding-top: 50px; color: #ff5e14; font-weight: 300;"><pre style="color: #ff5e14;padding: 0px 0px; font-size: 26px;">Global Relationships</pre></h3>
-            <h1 style="text-align: center; font-weight: bolder; margin-top: -9px;">VME CLIENTS</h1>
-            <h1 style=" color: #ff5e14; font-size: 8px; font-weight: bolder; margin-top: -6px; text-align: center; padding-bottom: 30px;">///////////////////////////////////////////////////////////////////////////////////////</h1>
-            <div class="row">
-              
-              <div class="col-lg-3 col-md-3 col-sm-12">
-                <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/ndr.png" alt="" class="aw1" >
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
-                <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/itc.png" alt="" class="aw2">
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
-                <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/internalational-airport.png" alt="" class="aw3">
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12">
-                <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/smcc.png" alt="" class="aw4" >
-              
-              </div>
+            <div class="m1">
+              <p class="m2">DOWNLOAD BROCHURE</p>
+              <p class="m3">ALL PRODUCTS BROCHURE AVAILABLE !</p>
+              <p class="m4" style="margin-left: 165px;">\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</p>
+              <button class="m5" type="button">DOWNLOAD NOW<i class="fa-solid fa-arrow-right" style="margin-left: 20px;font-size: large;"></i></button>
             </div>
-           </div>
-          </div>
           </div>
         </div>
-    
-       
-    
-  
-<!-- Bootstrap JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+      </div>
+    </section>
 
+    <section class="container-fluid">
+      <div class="row text-center">
+        <div class="mw">
+          <p style="padding-top: 90px;color: rgb(255, 94, 20);font-size: 31px;font-weight: 300;margin-bottom: -10px;">Global Relationships</p>
+          <p style="font-size: 50px;font-weight: 600;margin-top: -10px;margin-bottom: 0px;">VME CLIENTS</p>
+          <p class="m4">\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</p>
+          <div class="pt-3" style="display: flex;justify-content: center;">
+            <div class="card-head">
+              <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/ndr.png" alt="ndr" class="aw1" style="padding: 50px 75px;">
+            </div>
+            <div class="card-head">
+              <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/itc.png" alt="itc" class="aw2" style="padding: 50px 80px;">
+            </div>
+            <div class="card-head">
+              <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/internalational-airport.png" alt="internalational-airport" class="aw1" style="padding: 50px 80px;">
+            </div>
+            <div class="card-head">
+              <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/smcc.png" alt="smcc" class="aw2" style="padding: 50px 70px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Custom CSS to enable nested dropdown and hover effect -->
-<style>
-  .s1{
-    text-align: center;
-    color: white;
-    font-size: 52px;
-  }
-  .s2{
-    text-align: center;
-    color: white;
-    font-size: 18px;
-  }
-  .kq1{
-    margin-bottom: -1px;
-    margin-left: 40px;
-  }
-  .kq2{
-    margin-bottom: -1px;
-    margin-left: 40px;
-    margin-top: 50px;
-  }
-  .wq{
-    width: 87%;
-    background-color:  #ff5e14;
-    color: white;
-    text-align: end;
-    font-size: 22px;
-  padding: 10px 0px;
-    
-    margin-left: 40px;
-  }
-  .wq1{
-    width: 13%;
-    background-color: white;
-    margin-right: 40px;
-  }
-  .wq2{
-    width: 72%;
-    background-color: #2e396f;
-    color: white;
-    text-align: end;
-    margin-left: 40px;
-    font-size: 22px;
-    padding: 10px 0px;
-  }
-  .wq3{
-    width: 28%;
-    background-color: white;
-    margin-right: 40px;
-  }
-  .wq4{
-    width: 81%;
-    background-color: #2e396f;
-    color: white;
-    text-align: end;
-    margin-left: 40px;
-    font-size: 22px;
-    padding: 10px 0px;
-    
-  }
-  .wq5{
-    width: 19%;
-    background-color: white;
-    margin-right: 40px;
-  }
-  .wq6{
-    width: 93%;
-    background-color: #ff5e14;
-    color: white;
-    text-align: end;
-    margin-left: 40px;
-    font-size: 22px;
-    padding: 10px 0px;
-    
-  }
-  .wq7{
-    width: 7%;
-    background-color: white;
-    margin-right: 40px;
-  }
-  .lk{
-    transform: translatey(-10px); transition: 0.5s;
-  }
- .mp5{
-  margin-left: 150px; margin-top: 8px; background-color: #ff5e14; color: white;
-  padding: 10px 35px;
- }
- .mp5:hover{
-    padding: 10px 35px;  background-color: #ff6900;
-    transform: translatey(-10px); color: white;
-    transition: 1s;
-  }
-  .mp4{padding-left: 150px; color: #ff5e14; font-size: 8px; font-weight: bolder; margin-top: -6px;}
-  .mp3{color: white; padding-left: 150px; width: 50%; font-weight: bolder;}
-  .mp2{
-    color: rgb(162, 150, 150); padding: 100px 0px 0px 150px;
-  }
-  .mp1{background-color: #02113db8; height: 400px;}
-  .mwm{background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/10/image-from-rawpixel-id-585155.jpg.webp); width: 100%; height: 500px; background-repeat: no-repeat; background-size: cover;}
-  .aw1{
-    width: 75%;
-  
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 50%;padding: 64px 80px;
-  }
-  .aw2{
-    width: 75%;
-    
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 24%;padding: 50px 80px;
-  }
-  .aw3{
-    width: 75%;
-    padding: 60px 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-  }
-  .aw4{
-    width: 75%;
-    
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: -25%;padding: 58px 80px;
-  }
-  .jat1{
-    font-size: 17px;
-  }
-  .jat4{
-    font-size: 17px;
-  }
-  .jat5{
-    font-size: 17px;
-  }
+    <footer style="background-color: rgb(0, 22, 89);color: rgb(242, 242, 242);">
+      <section class="container pt-5">
+        <div class="row pt-4">
+         <div class="col-lg-4 col-md-4 col-sm-12">
+          <img src="https://vmeprecast.co.in/wp-content/uploads/2022/10/VME-Precast-Product-Logo-300x180.jpg" alt="VME-Precast-Product-Logo-300x180" class="img1">
+          <p class="h1">INDIAS FIRST FULLY AUTOMATED PRECAST FACTORY</p>
+          <div class="d-flex align-items-center">
+            <i class="fa-brands fa-facebook-f h2" style="padding: 12px 17px;"></i>
+            <i class="fa-brands fa-instagram h2" style="padding: 12px 14px;"></i>
+            <i class="fa-brands fa-youtube h2" style="padding: 12px;"></i>
+          </div>
+         </div>
 
-  .jat{
+         <div class="col-lg-2 col-md-2 col-sm-12" style="margin-left: -100px;">
+          <p class="h3">Quick Link</p>
+          <a href="About.html" style="text-decoration: none;"><p class="h4 pt-3">About us</p></a>
+          <a href="Hollow core slabs.html" style="text-decoration: none;"><p class="h4">Elements</p></a>
+          <a href="Commercial Projects.html" style="text-decoration: none;"><p class="h4">Building Solutions</p></a>
+          <a href="Storage Tank.html" style="text-decoration: none;"><p class="h4">Precast Product</p></a>
+          <a href="Career.html" style="text-decoration: none;"><p class="h4">Careers</p></a>
+         </div>
 
-    border-radius: 50%;
-    background-color: #ff6900;
-    width: 90px;
-    height: 90px;
-    text-align: center;
-    padding-top: 22px;
-    border: 6px solid #ff6900;
-    color: white;
-    
-}
-.jat:hover{
+         <div class="col-lg-2 col-md-2 col-sm-12" style="margin-left: 70px;">
+          <p class="h3">Projects</p>
+          <a href="Commercial Projects.html" style="text-decoration: none;"><p class="h4 pt-3">Commerical Project</p></a>
+          <a href="Industrial Buildings.html" style="text-decoration: none;"><p class="h4">Industial Building</p></a>
+          <a href="Moduler Soluion.html" style="text-decoration: none;"><p class="h4">Moduler Solution</p></a>
+          <a href="Residential.html" style="text-decoration: none;"><p class="h4">Residrntial</p></a>
+         </div>
 
-border-radius: 50%;
-background-color:white;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-color: #ff6900;
-border: 6px solid #ff6900;
-transition: 0.5s;
-}
-.jat2{
+         <div class="col-lg-1 col-md-1 col-sm-12"></div>
+        
+         <div class="col-lg-3 col-md-3 col-sm-12" style="margin-left: 15px;">
+          <p class="h3">Get In Touch</p>
+          <div>
+            <p class="h5 pt-3"><i class="fa-solid fa-location-dot" style="margin-right: 13px;color: rgb(255, 105, 0);"></i>124, Eraiyur Road, Vallam (A) Village, Sriperumbudur, Kanchipuram - 602105</p>
+            <p class="h5"><i class="fa-regular fa-envelope" style="margin-right: 13px;color: rgb(255, 105, 0);"></i>marketing@vmeprecast.co.in</p>
+            <p class="h5"><i class="fa-solid fa-phone" style="margin-right: 13px;color: rgb(255, 105, 0);"></i>+91 91769 13191</p>
+          </div>
+         </div>
 
-border-radius: 50%;
-background-color: #ff6900;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-border: 6px solid #ff6900;
-color: white;
-
-}
-.jat2:hover{
-
-border-radius: 50%;
-background-color:white;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-color: #ff6900;
-border: 6px solid #ff6900;
-transition: 0.5s;
-}
-.jat3{
-
-border-radius: 50%;
-background-color: #ff6900;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-border: 6px solid #ff6900;
-color: white;
-
-}
-.jat3:hover{
-
-border-radius: 50%;
-background-color:white;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-color: #ff6900;
-border: 6px solid #ff6900;
-transition: 0.5s;
-}
-
-  .z1{
-    color: #AEAEAE;
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 150px;
-  }
-  .z2{
-    color: white;
-    width: 70%;
-    font-weight: bold;
-  }
-  .z3{
-    background-color:  #ff6900;
-    color: white;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-  }
-  .z3:hover{
-    background-color:  #ff6900;
-    color: white;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    transform: translatey(-10px); transition: 0.5s;
-  }
-  .z3z{
-    background-color:  #ff6900;
-    color: white;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    border-radius: 22px;
-  }
-  .z3z:hover{
-    background-color:  #ff6900;
-    color: white;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    transform: translatey(-10px); transition: 0.5s;
-  }
-  .z4{
-    padding: 10px 35px; margin: -30px; margin-left: 0px;
-  }
-  .z4:hover{
-    padding: 10px 35px; margin: -30px; margin-left: 0px; background-color: #ff6900;
-    transform: translatey(-10px); color: white;
-    transition: 1s;
-  }
-  .jaat:hover{background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_0b78e367\ jaat11.jpg); width: 100%;
-    height: 400px;
-    background-size: cover; background-repeat: no-repeat;;}
-.jaat1:hover{background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_18e481ab.jpg);width: 100%;
-    height: 400px;
-    background-size: cover; background-repeat: no-repeat;
-    margin-left: -30px;
-  }
-  .jaat{
-    background: linear-gradient(90deg,rgba(81, 61, 162, 0.392),rgba(1, 1, 86, 0.527)),url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_0b78e367\ jaat11.jpg);
-    width: 100%;
-    height: 400px;
-    background-size: cover; background-repeat: no-repeat;
-  
-  }
-  .jaat1{
-    background: linear-gradient(90deg,rgba(57, 75, 119, 0.522),rgba(53, 62, 101, 0.527)),url(WhatsApp\ Image\ 2024-10-10\ at\ 01.38.21_18e481ab.jpg);
-    width: 100%;
-    height: 400px;
-    background-size: cover; background-repeat: no-repeat;
-    width: 100%;
-    margin-left: -30px;
-  }
-
-
-
-  
-  /* Card Styles */
-.custom-card {
-  border: 1px solid #f2f2f2; /* Default border */
-  transition: transform 0.5s ease, border-color 0.5s ease; /* Smooth animation */
-  height: 220px;
-}
-.icon-container {
-  border-radius: 50%; 
-  background-color: #ff6900; 
-  width: 90px; 
-  text-align: center;
-  font-weight: 100;
-  height: 90px ; 
-  color: #fcfbfa; 
-  border: 4px solid #ff6900;
-  margin-top: 20px;
-  margin-left: 33%; 
-  padding-top: 15px;
-  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth icon color transition */}
-.custom-card:hover {
-  border-color: #ff6900; /* Change border color on hover */
-   /* Move card upwards */transform: translate(-10px);
-  animation: malkit 2s ease-in-out alternate infinite;
-}
-@keyframes malkit {
-  0% {
-    transform: translateY(0); transition: 0.1s; /* Starting position */
-  }
-  100% {
-    transform: translateY(-20px); transition: 0.1s; /* Ending position */
-  }
-}
-.custom-card:hover .icon-container {
-  background-color: #fff; /* Change icon background to white */
-  color: #ff6900; /* Change icon color to #ff6900 */
-  border: 4px solid #ff6900;
-  border-radius: 50%; 
-   
-  width: 90px; 
-  height: 90px;
-  padding-top: 15px;
-  
-  margin-left: 33%; 
-  transition: background-color 0.5s ease, color 0.5s ease; /* Add a border to the icon */
-}
-
-/* 
-
-  .see-more-btn {
-      display: inline-flex;
-      align-items: center;
-      background-color: #ff6900;
-      color: white;
-      padding: 14px 30px;
-      font-size: 16px;
-      border: none;
-      border-radius: 24px;
-      text-transform: uppercase;
-      text-decoration: none;
-      margin-top: 20px;
-    } */
-    /* .see-more-btn:hover {
-      background-color: #ff4500;
-    }
-    .see-more-btn i {
-      margin-left: 10px;
-      font-size: 20px;
-    } */
+         <div style="text-align: center;font-size: medium;padding-top: 24px;padding-bottom: 30px;">© Copyright 2020 powered by VME</div>
+        </div>
+      </section>
+    </footer>
  
-  .l{
-    text-align: center;
-    margin-top: 5%;
-    font-size: 28px;
-    color: #001659;
-     
-  }
-  .l1{
-    display: flex; justify-content: center;align-items: center; margin-top: -3.2%; color: #ff4500;
-  }
-  .l2{
-    margin-top: 22px;
-  }
-  .l3{
-    text-align: center;
-    font-size: 16px;
-  }
-
-  
-
-
-  .video-container {
-      position: relative;
-      text-align: center;
-      width: 100%;
-    }
-
-    .a1{
-      position: absolute;
-      top: 50%;
-      left: 32%;
-      transform: translate(-50%, -50%);
-      color: #001659;
-      font-size: 55px;
-      font-weight: bold;
-      text-shadow: 2px 2px 8px rgba(63, 63, 63, 0.037);
-      background-color: #fcfbfa;
-      width: 42%;
-      text-align: start;
-      padding-left: 45px;
-      line-height: 55px;
-      padding-top: 20px;
-      
-    }
-
-    .video-buttons {
-      margin-top: 20px;
-    }
-
-    .btn-custom {
-      background-color: #ff6900;
-      color: white;
-      margin: 10px 0px 30px 0px;
-      padding: 10px 20px ;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      text-transform: uppercase;
-      
-    }
-
-    .btn-custom:hover {
-      background-color: #ff4500;
-    }
-
-    /* Ensure video fits within its container */
-    video {
-      width: 100%;
-      height: auto;
-    }
-    @media (max-width: 580px) {
-      .jat4{
-    font-size: 17px;
-    margin-right: -80px;
-  }
-  .jat5{
-    font-size: 17px;
-    margin-left: -80px;
-  }
-      .jat2{
-
-border-radius: 50%;
-background-color: #ff6900;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-border: 6px solid #ff6900;
-color: white;
-margin-left: -80px;
-
-}
-.jat3{
-
-border-radius: 50%;
-background-color: #ff6900;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-border: 6px solid #ff6900;
-color: white;
-margin-right: -80px;
-margin-top: 60px;
-}
-.jat{
-
-border-radius: 50%;
-background-color: #ff6900;
-width: 90px;
-height: 90px;
-text-align: center;
-padding-top: 22px;
-border: 6px solid #ff6900;
-color: white; 
-margin-top: 60px;
-
-}
-
-
-      .mp5{
-  margin-left: 70px; margin-top: 8px; background-color: #ff5e14; color: white;
- }
-      .mp1{background-color: #02113db8; height: 300px;}
-    .mp4{padding-left: 70px; color: #ff5e14; font-size: 8px; font-weight: bolder; margin-top: -6px;}
-  .mp3{color: white; padding-left: 70px; width: 80%; text-align: center; font-weight: bolder; font-size: 22px;}
-  .mp2{
-    color: rgb(162, 150, 150); padding: 100px 0px 0px 70px; font-size: 15px;
-  }
-      .mwm{background-image: url(https://vmeprecast.co.in/wp-content/uploads/2022/10/image-from-rawpixel-id-585155.jpg.webp); width: 100%; height: 1050px; background-repeat: no-repeat; background-size: cover;}
-      .aw1{
-    width: 75%;
-    padding: 60px 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 40px;
-  }
-   .aw2{
-    width: 75%;
-    padding: 60px 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 40px;
-    margin-top: 15px;
-  }
-   .aw3{
-    width: 75%;
-    padding: 60px 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 40px;
-    margin-top: 15px;
-  }
-   .aw4{
-    width: 75%;
-    padding: 60px 80px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px rgba(148, 146, 146, 0.399);
-    margin-left: 40px;
-    margin-top: 15px;
-  }
-      /* .see-more-btn {
-      display: inline-flex;
-      align-items: center;
-      background-color: #ff6900;
-      color: white;
-      padding: 14px 100px;
-      font-size: 16px;
-      border: none;
-      border-radius: 24px;
-      text-transform: uppercase;
-      text-decoration: none;
-      margin-top: 20px;
-      margin-left: 10px;
-    } */
-    .z1{margin-top: 10px;}
-    .z2{
-      width: 100%;
-    }
-    /* .see-more-btn:hover {
-      background-color: #ff4500;
-    }
-    .see-more-btn i {
-      margin-left: 10px;
-      font-size: 20px;
-    } */
-      .a1 {
-        font-size: 39px;
-        background-color:#fff; /* Darker background to cover the video */
-        color:#012f5e;;
-        width: 98.4%;
-        height: 377px;
-        top: 95px;
-        left: 2.7px;
-        transform: none;
-        padding-left: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      
-        line-height: 40px;
-      }
-
-      .a2{
-        height: 474px;
-        width: 100%;
-        /* Hide the video on mobile */
-      }
-      .jaat1{
-        margin-left: 0px;
-        margin-top: 25px;
-      }
-
-      .btn-custom {
-        margin-top: -20px;
-        font-size: 22px;
-      }
-      .v1{
-        width: 100%;
-        height: 185px;
-      }
-  
-    }
-    @media (max-width: 180px) {
-     
-      .a1 {
-        font-size: 29px;
-        background-color:#fff; /* Darker background to cover the video */
-        color:#012f5e;;
-        width: 50%;
-        height: 357px;
-        top: 95px;
-        right: 0;
-        transform: none;
-        padding-left: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-      .a2{
-        height: 795px;
-        width: 100%;
-        /* Hide the video on mobile */
-      }
-
-      .btn-custom {
-        margin-top: 20px;
-        font-size: 20px;
-      }
-     
-  
-    }
-    .italic-text {
-      font-style: italic;
-      border-left: 5px solid  #f96d08ed;
-      padding-left: 40px;
-      margin-top: 20px;
-    }
-     .wa {
-      border-bottom: 5px solid  #f66b07ed;
-      
-      width:16%;
-      padding-bottom: 20px;
-    }
-    .about-text {
-      margin-top: 35px;
-      color: #565969;
-      font-weight: 450;
-    }
-</style>
-
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
